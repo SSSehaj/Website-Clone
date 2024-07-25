@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+body{
+    background-color: rgba(200, 200, 200, 25%)
+}
+.navbar{
+    height: 70px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+     
+}
+.navlogo{
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    left: 220px;
+}
+.logo{
+    background-image: url(flip-logo.png);
+    background-size: cover;
+    height: 40px;
+    width: 100%;
+}
+.border{
+    border: 1px solid transparent
+}
+.box2{
+    display: flex;
+    position: relative;
+    left: 360px;
+
+}
+.nav-search{
+    display: flex;
+    
+    background-color: rgb(213, 242, 243);
+    width: 820px;
+    height: 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    background-color: rgb(213, 242, 243);
+    border-radius: 10px;
+    outline: none;
+}
+.nav-icon{
+    width: 30px;
+    height: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    align-content: center;
+    font-size: 1rem;
+    color: #0f1111;
+    text-align: center;
+    padding: 10px;
+}
+.login{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    height: 20px;
+    width: 60px;
+    color: black;
+    padding: 8px;
+
+    position: relative;
+    left: 20px;
+}
+.cart{
+    display: flex;
+    align-content: start;
+
+    font-size: 1rem;
+    height: 20px;
+    width: 60px;
+    padding: 8px;
+    
+    position: relative;
+    left: 80px;
+}
+.cart i{
+    font-size: 20px
+}
+.shop{
+    display: flex;
+    align-content: end;
+
+    font-size: 1rem;
+    height: 20px;
+    width: 150px;
+    padding: 8px;
+    
+    position: relative;
+    left: 110px;
+    
+}
+.shop i{
+    font-size: 20px
+}
+.menu i{
+    font-size: 20px;
+    position: relative;
+    left: 150px;
+    align-items: center;
+    margin-top: 10px;
+}
+input{
+    border: none;
+}
+.menubar{
+    background-color: white;
+    display: flex;
+    height: 125px;
+    justify-content: center;
+    margin-top: 8px;
+    margin-left: 140px;
+    margin-right: 140px;
+    
+}
+.dibba{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 40px;
+    height: 140px;
+    width: 120px;
+    background-color: transparent;
+}
+.menuimg{
+    height: 50px;
+    width: 90px;
+    background-size : cover;
+}
+.dibba p{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+.banner{
+    background-image: url(flippin-banner.webp);
+    background-size: cover;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+/**--------------------------------------------------------------------------------------------------------------------------------------------------------------------------**/
+
+.msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    margin-bottom: 25px;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 15px;
+    
+}
+.msg a{
+    color: #007185;
+    text-decoration: none;
+}
+
+/** shop section **/
+.shop-section{
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-evenly;
+    background-color: #e2e7e6 ;
+    margin-right: 140px;
+    margin-right: 140px;
+
+    position: absolute;
+    left: 140px;
+}
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px ;
+    margin-top: 15px;
+}
+.imghel{
+    height: 320px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content p {
+    color: #007185;
+}
+/** -------------------------------------------------------------------------------------------------------------------------------------------------------------------------**/
+footer{
+    margin-top: 15px;
+    position: relative;
+    top: 920px;
+}
+.foot-panel2{
+    background-color: rgba(0, 0, 0, 85%);
+    height: 300px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul a{
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+}
+.foot-panel2 p{
+    font-size: 1rem;
+    color: grey;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.ps{
+    justify-content: end;
+    display: flex;
+    color: white;
+    background-color: rgba(0, 0, 0, 85%);
+    font-weight: bold;
+    padding-right: 10px;
+}
+.ps p{
+    margin-left: 10px;
+}
